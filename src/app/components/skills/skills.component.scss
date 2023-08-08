@@ -1,0 +1,40 @@
+section{
+    margin-top: 2rem;
+}
+
+.logo{
+    width: 120px;
+    height: 120px;
+    margin: 2rem;
+    opacity: .5;
+} :hover{
+    opacity: 1;
+}
+
+.tip{
+    position: absolute;
+    background-color:  #006fd6af;
+    padding: 5px 10px;
+    color: white;
+    border-radius: 5px;
+    left: 10%;
+    top:-10%;
+    transition: opacity 150ms;
+    opacity: 0;
+}
+.ver{
+    position: relative;
+}
+
+.ver:hover .tip{
+    opacity: 1;
+}
+
+.tip::before{
+    position: absolute;
+    content: '';
+    border: solid 10px transparent;
+    border-top-color:  #006fd6af ;
+    left: 45%;
+    top:100%
+}
