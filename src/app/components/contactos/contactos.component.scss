@@ -1,0 +1,74 @@
+.contactos{
+    background-color: #006fd6af;
+    padding-top: 2rem;
+}
+
+h2, label{
+    color: white;
+}
+
+input, textarea{
+    padding: 5px;
+    border: none;
+    width: 45rem;
+    background-color:white;
+    border-radius: 4px;
+    color:rgb(63, 61, 61);
+    margin: 15px 0;
+    align-items: center;
+    justify-content: center;
+    resize: none;
+}
+
+form{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    margin:0 auto;
+    margin-left: 15rem;
+}
+
+button{
+    padding: 5px 50px;
+    border-radius: 10px;
+    background-color: rgb(255, 8, 0);
+    border: 2px solid;
+    color:white;
+    transition: 500ms;
+}
+
+button:hover{
+    background-color: white;
+    border:2px solid rgb(255, 8, 0);
+    color: rgb(255, 8, 0);
+}
+
+.redes{
+    background-color: rgb(63, 61, 61);
+    width: 100vw;
+    height:9rem;
+    margin-top: 1rem;
+}
+
+#linkedin{
+    background-color: rgb(227, 224, 255);
+    border-radius: 50%;
+    margin: 2rem;
+}
+
+#linkedin:hover{
+    background-color: blue;
+}
+
+#gitHub{
+    background-color: rgb(227, 224, 255);
+    border-radius: 50%;
+}
+
+#gitHub:hover{
+    background-color:black;
+}
+
+h6{
+    color: white;
+}
