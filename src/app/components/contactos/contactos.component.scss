@@ -1,6 +1,7 @@
 .contactos{
     background-color: #006fd6af;
-    padding-top: 2rem;
+    padding: 2rem;
+    width: 100vw;
 }
 
 h2, label{
@@ -10,11 +11,11 @@ h2, label{
 input, textarea{
     padding: 5px;
     border: none;
-    width: 45rem;
     background-color:white;
     border-radius: 4px;
     color:rgb(63, 61, 61);
     margin: 15px 0;
+    width:50%;
     align-items: center;
     justify-content: center;
     resize: none;
@@ -25,7 +26,11 @@ form{
     align-items: center;
     justify-content: center;
     margin:0 auto;
-    margin-left: 15rem;
+    padding: 2rem;
+}
+.formu{
+    padding: 2rem 2rem 0 25rem;
+    margin: 0;
 }
 
 button{
@@ -47,9 +52,11 @@ button:hover{
     background-color: rgb(63, 61, 61);
     width: 100vw;
     height:9rem;
-    margin-top: 1rem;
 }
 
+.red{
+    margin: 0;
+}
 #linkedin{
     background-color: rgb(227, 224, 255);
     border-radius: 50%;
