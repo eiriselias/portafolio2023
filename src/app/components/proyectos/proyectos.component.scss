@@ -5,4 +5,17 @@
 
 .card{
     margin: 2rem;
+    height: 22rem;
+    background-color: #006fd6af;
+    color:white;
+    transition: 500ms;
+}:hover{
+    background-color: white;
+    color:#006fd6af;
+    transition: 500ms;
+}
+
+
+.card-body p{
+    text-align: justify;    
 }
