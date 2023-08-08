@@ -1,0 +1,22 @@
+.col img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 10px solid white;
+    margin-top: 5rem;
+}
+
+.video{
+    width: 100vw;
+    height: 80vh;
+    object-fit: fill;
+    position: absolute;
+}
+
+.fondo .container{
+    position: absolute;
+}
+
+h1, h3{
+    color: white;
+}
