@@ -3,12 +3,15 @@
     <div class="row">
         <div class="col text-center">
             <h2>PROYECTOS</h2>
-            <hr>
         </div>
     </div>
+    <div class="row">
+        <h5>Web</h5><hr>
+    </div>
     <div class="row"data-aos="fade-down" data-aos-easing="linear" data-aos-duration="2000">
+        <!---------------------Card de Neos terapia----------------------------------------------------->
         <div class="col">
-            <div class="card" style="width: 18rem;">
+            <div class="card" style="width: 18rem;" type="button" data-bs-toggle="modal" data-bs-target="#neosTerapia">
                 <img src="./assets/neosTerapia.png" class="card-img-top" alt="patallasoNeosTerapia">
                 <div class="card-body">
                     <h5 class="card-title">Neos Terapia</h5>
@@ -18,8 +21,9 @@
                 </div>
             </div>
         </div>
+        <!-------------------------Card de VariedadeStelias-------------------------------------------------------->
         <div class="col">
-            <div class="card" style="width: 18rem;">
+            <div class="card" style="width: 18rem;" type="button" data-bs-toggle="modal" data-bs-target="#variedadeStelias">
                 <img src="./assets/variedadeStelias.png" class="card-img-top" alt="patallasoVariedadStelias">
                 <div class="card-body">
                     <h5 class="card-title">VariedadeStelias</h5>
@@ -28,9 +32,10 @@
                     productos.</p>
                 </div>
             </div>
-        </div>        
+        </div>
+        <!-------------------------Card de proyecto Responsive--------------------------------------------------------->        
         <div class="col">
-            <div class="card" style="width: 18rem;">
+            <div class="card" style="width: 18rem;" type="button" data-bs-toggle="modal" data-bs-target="#responsiveWeb">
                 <img src="./assets/reponsive.png" class="card-img-top" alt="patallasoResponsive">
                 <div class="card-body">
                     <h5 class="card-title">Proyecto Responsive</h5>
@@ -40,6 +45,116 @@
             </div>
         </div>
     </div>
+    <div class="row">
+        <h5>Aplicaciones</h5><hr>
+    </div>
 </div>
 </section>
+<!-----------------------------Se agrego el componente skills---------------------------------->
 <app-skills></app-skills>
+
+<!--------------------------------modal variedades stelias------------------------------------>
+
+<div class="modal fade" id="variedadeStelias" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title text-danger" id="exampleModalLabel">VariedadeStelias</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body text-center">
+                <video controls autoplay muted width="450px" height="250px">
+                    <source src="./assets/videos/variedadeStelias.mp4">
+                </video>
+                <p align="justify">Este es mi proyecto, el cual fue realizado en un modo 
+                    individual, este consta en el desarrollo de una web la cual puede llevar una base de datos de 
+                    productos, la cual es alimentada por medio de un formulario, se pueden ver los productos 
+                    ya existentes, ademas se puede reabastecer productos próximos a agotarse, puede filtrar los 
+                    que están en mayor posibilidad de agotamiento, además tiene una sección de venta donde podemos 
+                    seleccionar los productos he irlos agregando al carro de ventas, al finalizar nos enviara a una 
+                    ventana de historial de ventas donde podemos ver las ventas anteriormente realizadas.
+                    Espero les guste. :)
+                </p>
+                <p>
+                    proyecto hecho en:
+                    Angular, Boostrap, Firebase, Typescript, Html.
+                </p><hr>  
+                <a class="visita" href="https://eiriselias.github.io/variedadeStelias" target="_blank"><span type="button" class="btn btn-primary">Visitar</span></a>
+                <a href="https://github.com/eiriselias/variedadeStelias.git" target="_blank"><span type="button" class="btn btn-secondary">Repositorio</span></a>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cerrar</button>
+                
+            </div>
+        </div>
+    </div>
+</div>
+<!--------------------Modal de proyecto responsive--------------------->
+
+<div class="modal fade" id="responsiveWeb" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title text-danger" id="exampleModalLabel">Responsive Web</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body text-center">
+                <video controls autoplay muted width="450px" height="250px">
+                    <source src="./assets/videos/responsive.mp4">
+                </video>
+                <p align="justify">
+                    Utilizando los lenguajes Html y Less, se aplico el modelo de responsavilidad para tres tamaños 
+                    de pantallas, teniendo en cuenta que se diseño en el tamaño pc se insertaron metodos responsivos 
+                    para dos tipos de tamaña.
+                </p>
+                <p align="justify"><span>pantalla modo table</span>: se implemento un tamaño determinado al tener una pantalla de un tamaño 
+                    maximo de 800 px.
+                </p>
+                <p align="justify"><span>pantalla modo phone</span>: en este caso se implemento ingresar a este modo cuando la pantalla es con 
+                    un tamaño maximo de 500 px.
+                </p>  
+                <p align="justify">cabe resaltar que los tamaños superiores a los antes ya mensionados se tomaron como pantalla 
+                    en modalidad de escritorio.
+                </p>
+                <p>
+                    proyecto hecho en:
+                    React, Css, Html, Less.
+                </p>    
+                <hr> 
+                <a class="visita" href="https://eiriselias.github.io/responsiveWeb" target="_blank"><span type="button" class="btn btn-primary">Visitar</span></a>
+                <a href="https://github.com/eiriselias/responsiveWeb.git" target="_blank"><span type="button" class="btn btn-secondary">Repositorio</span></a>  
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-----------------------------Modal Neos Terapia--------------------------------------------------->
+<div class="modal fade" id="neosTerapia" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title text-danger" id="exampleModalLabel">Neos Terapia</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body text-center">
+                <video controls autoplay muted width="450px" height="250px">
+                    <source src="./assets/video/variedadeStelias.mp4">
+                </video>
+                <p align="justify">Este es proyecto esta aun en estado de construcion.
+                </p>
+                <p>
+                    proyecto hecho en:
+                    Angular, Boostrap, Typescript, Html.
+                </p><hr>  
+                <a class="visita" href="https://eiriselias.github.io/neosTerapia" target="_blank"><span type="button" class="btn btn-primary">Visitar</span></a>
+                <a href="https://github.com/eiriselias/neosTerapia.git" target="_blank"><span type="button" class="btn btn-secondary">Repositorio</span></a>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cerrar</button>
+                
+            </div>
+        </div>
+    </div>
+</div>
