@@ -1,7 +1,6 @@
 .contactos{
     background-color: #006fd6af;
     padding: 2rem;
-    width: 100vw;
 }
 
 h2, label{
@@ -19,10 +18,19 @@ input, textarea{
     align-items: center;
     justify-content: center;
     resize: none;
+    transition: 500ms;
+}
+textarea:hover{
+    background-color: rgb(211, 211, 207);
+    transition: 500ms;
+}
+input:hover{
+    background-color: rgb(211, 211, 207);
+    transition: 500ms;
 }
 
 form{
-    display: block;
+    //display: block;
     align-items: center;
     justify-content: center;
     margin:0 auto;

@@ -8,6 +8,7 @@ import { NavBarComponent } from './components/nav-bar/nav-bar.component';
 import { SkillsComponent } from './components/skills/skills.component';
 import { ContactosComponent } from './components/contactos/contactos.component';
 import { ProyectosComponent } from './components/proyectos/proyectos.component';
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { ProyectosComponent } from './components/proyectos/proyectos.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
