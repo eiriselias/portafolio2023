@@ -10,6 +10,13 @@ import { ContactosComponent } from './components/contactos/contactos.component';
 import { ProyectosComponent } from './components/proyectos/proyectos.component';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import { AplicacionesComponent } from './components/aplicaciones/aplicaciones.component';
+import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
+import { HttpClientModule,HttpClient } from '@angular/common/http';
+import { TranslateHttpLoader } from '@ngx-translate/http-loader';
+
+export function createTranslateLoader(http: HttpClient){
+  return new TranslateHttpLoader(http, './assets/idiomas/','.json');
+}
 
 @NgModule({
   declarations: [
@@ -24,7 +31,15 @@ import { AplicacionesComponent } from './components/aplicaciones/aplicaciones.co
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    HttpClientModule,
+    TranslateModule.forRoot({
+      loader:{
+        provide: TranslateLoader,
+        useFactory: (createTranslateLoader),
+        deps: [HttpClient]
+      }
+    }),
   ],
   providers: [],
   bootstrap: [AppComponent]
