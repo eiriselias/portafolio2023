@@ -1,7 +1,16 @@
 <div class="container">
     <div class="row" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="2000">
+        <!---------------------------Card VariedadeStelias------------------------------>
+        <div class="col">
+            <div class="card" style="width: 18rem;" type="button" data-bs-toggle="modal" data-bs-target="#appStelias">
+                <img src="./assets/appStelias.png" class="card-img-top" alt="patallasoVariedadStelias">
+                <div class="card-body">
+                    <h5 class="card-title">VARIEDADESTELIAS</h5>
+                    <p class="card-text">{{"cardTextAppStelias" | translate}}</p>
+                </div>
+            </div>
+        </div>
         <!---------------------------Card futbol Cop----------------------------------->
-        <div class="col"></div>
         <div class="col">
             <div class="card" style="width: 18rem;" type="button" data-bs-toggle="modal" data-bs-target="#futbolCop">
                 <img src="./assets/futbolCop.png" class="card-img-top" alt="patallasofutbolCop">
@@ -15,6 +24,9 @@
     </div>
 </div>
 
+
+
+
 <!--------------------------------modal Futbol Cop------------------------------------>
 
 <div class="modal fade" id="futbolCop" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -25,7 +37,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body text-center">
-                <iframe src="https://www.appsheet.com/start/c2e39ec4-397c-454c-9d9d-31cf72036018" width="320" height="568"></iframe>
+                <video controls autoplay muted src="./assets/videos/futbolCopMuestra.mp4" width="320" height="568"></video>
                 <p align="justify">{{"modalFutbol" | translate}}</p>
                 <p>
                     {{"modalConstruido" | translate}}
@@ -34,7 +46,30 @@
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-danger" data-bs-dismiss="modal">{{"cerrar" | translate}}</button>
-                
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--------------------------------modal variedadeStelias------------------------------------>
+
+<div class="modal fade" id="appStelias" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title text-danger" id="exampleModalLabel">VariedadeStelias</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body text-center">
+                <video controls autoplay muted src="./assets/videos/SteliasMuestra.mp4" width="320" height="568"></video>
+                <p align="justify">{{"modalAppStelias" | translate}}</p>
+                <p>
+                    {{"modalConstruido" | translate}}
+                    AppSheet, Microsoft Excel.
+                </p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">{{"cerrar" | translate}}</button>
             </div>
         </div>
     </div>
