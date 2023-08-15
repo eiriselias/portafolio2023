@@ -1,4 +1,6 @@
 {
+    "cerrar":"Cerrar",
+
     "Idioma": "Idioma",
     "habilidades": "habilidades",
     "contactar": "contactar",
@@ -20,6 +22,15 @@
     "cardTextNeos": "Web publicitaria a local comercial la cual ofrece servicios terapeuticos, esta aun se encuentra  en estado de evolución.",
     "cardTextStelias":"Este proyecto consta en el desarrollo de una web la cual puede llevar una base de datos de productos de un local comercial, se utilizo CRUD para alimentar dicha web.",
     "cardTextResponsive":"Utilizando los lenguajes Html y Less, se aplico el modelo de adaptable para tres tamaños de pantallas.",
-    "cardTextFutbol": "Esta es una web la cual esta diseñada para llevar el registro de un campeonato de futbol, en esta podemos ver tabla de posiciones, crear nuevos equipos y jugadores."
+    "cardTextFutbol": "Esta es una web la cual esta diseñada para llevar el registro de un campeonato de futbol, en esta podemos ver tabla de posiciones, crear nuevos equipos y jugadores.",
+
+
+    "modalConstruido":"Proyecto construido en:",
+    "visitar":"Visitar",
+    "repositorio":"Repositorio",
+    "modalFutbol": "Este proyecto esta basado en una aplicación deportiva, en esta se pueden crear nuevos equipos, nuevos jugadores, nuevos partidos, cabe resaltar que estos ingresos solo los puede hacer un administrador con clave de aseso, los usuarios que no tienen clave de aseso solo pueden visualizar los estados de sus equipos viendo que equipos están registrados, cuales son sus jugadores, la tabla de posiciones y tabla de goleadores.",
+    "modalNeos": "Este es proyecto esta aun en etapa de construcción. Esta es una web informativa para una entidad de salud, prestadora de sus servicios terapéuticos en la ciudad de buenaventura, estoy encargado en el desarrollo y mantenimiento de dicha web, en el momento contiene textos y fotografías animadas e incluí  videos de la pagina de Facebook .",
+    "modalStelias":"Este proyecto consta en el desarrollo de una web, que lleva una base de datos de productos, la cual es alimentada por medio de un formulario, se pueden ver los productos ya existentes, además se puede reabastecer productos próximos al agotarse, puede filtrar los que están en mayor posibilidad de agotamiento, además tiene una sección de venta donde podemos seleccionar los productos he irlos agregando al carro de ventas, al finalizar nos enviara a una ventana de historial de ventas donde podemos ver las ventas anteriormente realizadas. Espero les guste.",
+    "modalResponsive": "He utilizando los lenguajes Html y Less, se aplico el modelo ajustable para tres tamaños de pantallas, teniendo en cuenta que se diseño en el tamaño pc se insertaron métodos adaptables para dos tipos de tamaños mas. La pantalla modo table: se implemento un tamaño determinado al tener una pantalla de un tamaño máximo de 800px. La pantalla modo celular: en este caso se implemento ingresar a este modo cuando la pantalla es con un tamaño máximo de 500px. Cabe resaltar que los tamaños superiores a los antes ya mencionados se tomaron como pantalla  en modalidad de escritorio."
 
 }
