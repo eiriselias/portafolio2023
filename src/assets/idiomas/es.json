@@ -1,23 +1,25 @@
 {
-    
-    "Idioma":"Idioma",
+    "Idioma": "Idioma",
     "habilidades": "habilidades",
     "contactar": "contactar",
     "enviarMensaje": "Enviar un mensaje",
 
-
-    "hola":"Hola!",
+    "hola": "Hola!",
     "nombre": "Soy Elias Salazar",
-    "profesion":"Desarrollador Front-End",
-
+    "profesion": "Desarrollador Front-End",
 
     "proyectos": "proyectos",
     "app": "Aplicaciones",
 
-    
-    "contactos":"CONTACTOS",
+    "contactos": "CONTACTOS",
     "correo": "Su Correo",
     "mensaje": "Su Mensaje",
     "enviar": "Enviar",
-    "pie": "Desarrollado y diseñado por Eiris Salazar. ©2023. Reservados todos los derechos."
+    "pie": "Desarrollado y diseñado por Eiris Salazar. ©2023. Reservados todos los derechos.",
+
+    "cardTextNeos": "Web publicitaria a local comercial la cual ofrece servicios terapeuticos, esta aun se encuentra  en estado de evolución.",
+    "cardTextStelias":"Este proyecto consta en el desarrollo de una web la cual puede llevar una base de datos de productos de un local comercial, se utilizo CRUD para alimentar dicha web.",
+    "cardTextResponsive":"Utilizando los lenguajes Html y Less, se aplico el modelo de adaptable para tres tamaños de pantallas.",
+    "cardTextFutbol": "Esta es una web la cual esta diseñada para llevar el registro de un campeonato de futbol, en esta podemos ver tabla de posiciones, crear nuevos equipos y jugadores."
+
 }

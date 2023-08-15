@@ -18,5 +18,11 @@
     "correo": "Your Mail",
     "mensaje": "Your Message",
     "enviar": "Send",
-    "pie": "Developed and designed by Eiris Salazar. ©2023. All rights reserved."
+    "pie": "Developed and designed by Eiris Salazar. ©2023. All rights reserved.",
+
+
+    "cardTextNeos":"Advertising website for a commercial space that offers therapeutic services, currently in a state of development.",
+    "cardTextStelias":"This project involves the development of a website that can house a database of products from a commercial space. CRUD operations were used to populate this website.",
+    "cardTextResponsive":"Using HTML and Less languages, the responsive design model was applied for three screen sizes.",
+    "cardTextFutbol": "This is a website designed to keep track of a soccer championship. It features a standings table and allows users to create new teams and players."
 }
