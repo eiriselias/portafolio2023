@@ -1,6 +1,22 @@
 {
     "Idioma":"Language",
+    "habilidades": "skillset",
+    "contactar": "contact",
+    "enviarMensaje": "Send a message",
+
+
     "hola":"Hellow!",
     "nombre": "I'm Elias Salazar",
-    "profesion":"Front-End Developer"
+    "profesion":"Front-End Developer",
+
+
+    "proyectos": "Proyects",
+    "app": "Aplications",
+
+
+    "contactos":"CONTACTS",
+    "correo": "Your Mail",
+    "mensaje": "Your Message",
+    "enviar": "Send",
+    "pie": "Developed and designed by Eiris Salazar. ©2023. All rights reserved."
 }
