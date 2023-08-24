@@ -1,0 +1,29 @@
+section:hover{
+    color:#006fd6af;
+    transition: 500ms;
+}
+.container{
+    padding: 4rem 0 2rem 0;
+}
+h2, button{
+    text-transform: uppercase;
+}
+
+h5{
+    //color: black;
+    text-align: justify;
+    -webkit-text-stroke-width: .5px;
+    -webkit-text-stroke-color: black;
+}
+.coltext2{
+    text-align: end;
+}
+.rowtexto{
+    margin-top: 2rem;
+}
+
+button:hover{
+    background-color: rgb(205, 196, 248);
+    color: #006fd6af;
+    border:3px;
+}

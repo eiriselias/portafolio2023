@@ -2,12 +2,16 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { SkillsComponent } from './components/skills/skills.component';
 import { ProyectosComponent } from './components/proyectos/proyectos.component';
+import { CvComponent } from './components/cv/cv.component';
+import { SobremiComponent } from './components/sobremi/sobremi.component';
 
 const routes: Routes = [
  
-    {path:"",component:ProyectosComponent, pathMatch:'full'},
+    {path:"",component:SobremiComponent, pathMatch:'full'},
     {path:"skillset",component:SkillsComponent},
     {path:"proyectos",component:ProyectosComponent},
+    {path:"sobremi", component:SobremiComponent},
+    {path:"cv",component:CvComponent},
     {path:"**", redirectTo:'/', pathMatch:'full'}
   
 ];

@@ -6,6 +6,11 @@
     "contactar": "contactar",
     "enviarMensaje": "Enviar un mensaje",
 
+    "sobremi":"sobre mi",
+    "descargar":"descargar",
+    "descripcion":"¡Hola! Soy Elias Salazar, un desarrollador Front-End especializado en Angular y apasionado por crear experiencias digitales atractivas. Mi destreza abarca desde la construcción de interfaces fluidas con HTML, CSS y JavaScript hasta la implementación de lógica dinámica en TypeScript. Además, cuento con conocimientos en Python, Node.js y Git, lo que me permite aportar soluciones completas y colaborar eficazmente en proyectos innovadores. ¡Espero contribuir a hacer realidad tus ideas web de manera impactante y funcional!",
+    "visitaCV":"Si estás interesado en conocer más sobre mi experiencia y habilidades, te invito a echar un vistazo a mi CV. ¡Haz clic en el botón a continuación para descubrir más detalles sobre mi trayectoria!",
+
     "hola": "Hola!",
     "nombre": "Soy Elias Salazar",
     "profesion": "Desarrollador Front-End",
@@ -24,7 +29,6 @@
     "cardTextResponsive":"Utilizando los lenguajes Html y Less, se aplico el modelo de adaptable para tres tamaños de pantallas.",
     "cardTextFutbol": "Esta es una aplicacion la cual esta diseñada para llevar el registro de un campeonato de futbol, en esta podemos ver tabla de posiciones, crear nuevos equipos y jugadores.",
     "cardTextAppStelias":"Esta aplicacion en la cual puede llevar una base de datos de productos de un local comercial, en esta puedes agragar nuevos productos, surtir y venderlos",
-
 
     "modalConstruido":"Proyecto construido en:",
     "visitar":"Visitar",

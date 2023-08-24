@@ -1,0 +1,27 @@
+<section class="sobremi" id="sobremi">
+<div class="container">
+    <div class="row">
+        <div class="col text-center">
+            <h2>{{"sobremi" | translate}}</h2>
+        </div>
+        <hr>
+    </div>
+    <div class="row rowtexto">
+        <div class="col" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+            <h5>
+                {{"descripcion" | translate}}
+            </h5>
+        </div>
+        <div class="col coltext2" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1000">
+            <h5>
+                {{"visitaCV"|translate}}
+            </h5>
+            <button type="button" class="btn btn-primary" [routerLink]="['cv']">{{"descargar" | translate}} CV</button>
+        </div>
+    </div>
+</div>
+</section>
+<!-----------------------------Se agrego el componente proyectos---------------------------------->
+<app-proyectos></app-proyectos>
+<!-----------------------------Se agrego el componente skills---------------------------------->
+<app-skills></app-skills>
