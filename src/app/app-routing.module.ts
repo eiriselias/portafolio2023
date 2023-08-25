@@ -6,7 +6,7 @@ import { CvComponent } from './components/cv/cv.component';
 import { SobremiComponent } from './components/sobremi/sobremi.component';
 
 const routes: Routes = [
- 
+
     {path:"",component:SobremiComponent, pathMatch:'full'},
     {path:"skillset",component:SkillsComponent},
     {path:"proyectos",component:ProyectosComponent},
