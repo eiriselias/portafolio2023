@@ -11,3 +11,17 @@ embed:hover{
     width:630px;
     transition: 500ms;    
 }
+
+.btnCel{
+    display: none;
+}
+
+@media (max-width: 767px) {
+    .btnCel{
+        display: block;
+    }
+
+    embed{
+        display: none;
+    }
+}

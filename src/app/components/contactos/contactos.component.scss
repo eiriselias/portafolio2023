@@ -87,3 +87,19 @@ button:hover{
 h6{
     color: white;
 }
+
+
+// estilos para ajustar en la pantalla tamaño Cel 
+
+@media (max-width: 767px) {
+    .formu{
+        padding: 0;
+    }
+    input, textarea{
+        width: 100%;
+    }
+}
+
+// estilos para ajustar en la pantalla tamaño table
+
+@media screen and (min-width:768px) and (max-width: 1340px) {}

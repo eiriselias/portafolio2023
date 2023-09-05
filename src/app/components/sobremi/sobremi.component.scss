@@ -27,3 +27,13 @@ button:hover{
     color: #006fd6af;
     border:3px;
 }
+
+@media (max-width: 767px) {
+    .rowtexto{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-right: 1rem;        
+    }
+    
+}
