@@ -39,7 +39,6 @@
     "modalResponsive": "He utilizando los lenguajes Html y Less, se aplico el modelo ajustable para tres tamaños de pantallas, teniendo en cuenta que se diseño en el tamaño pc se insertaron métodos adaptables para dos tipos de tamaños mas. La pantalla modo table: se implemento un tamaño determinado al tener una pantalla de un tamaño máximo de 800px. La pantalla modo celular: en este caso se implemento ingresar a este modo cuando la pantalla es con un tamaño máximo de 500px. Cabe resaltar que los tamaños superiores a los antes ya mencionados se tomaron como pantalla  en modalidad de escritorio.",
     "modalAppStelias":"Esta aplicación se puede crear un base de datos de un establecimiento comercial, estos llevan precio descripción y categorías, en ella puedes agregar nuevos productos, editarlos eliminarlos, como también puede surtir y vender, es muy útil para establecimientos comerciales pequeños.",
 
-    "actualizacion":"Ultima actualización ",
     "pdfLink":"Estos archivos PDF tienen link incluidos donde puedes visitar mis certificaciones y paginas."
 
 }
