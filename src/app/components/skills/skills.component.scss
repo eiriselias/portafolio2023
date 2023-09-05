@@ -47,12 +47,15 @@ h2{
     text-transform: uppercase;
 }
 
-
 @media (max-width: 767px) {
     .logos{
         display: flex;
         flex-direction: wrap; 
         flex-wrap: wrap;     
+    }
+    .logo{
+        width: 60px;
+        height: 60px;
     }
     
 }
