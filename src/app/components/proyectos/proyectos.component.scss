@@ -27,6 +27,14 @@
     }:hover{
         background-color:rgb(197, 197, 240) ;
     }
+    video{
+        width:450px;
+        height:250px;
+    }
+    img{
+        width:450px;
+        height:250px;
+    }
 }
 
 .modal-header{
@@ -45,4 +53,15 @@
 
 h2{
     text-transform: uppercase;
+}
+
+@media (max-width: 767px) {
+    .modal-body{
+        video{
+            width: 100%;
+        }
+        img{
+            width:100%;
+        }
+    }
 }
