@@ -1,27 +1,28 @@
 # Portafolio2023
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.8.
+Este proyecto esta basado en mi portafolio, este esta diseñado en **Angular** ademas se utilizo **boostrap**, los movimientos de los elementos utilize la herramienta **aos**, ademas utilice **@ngx-translate** para generar el cambio de idiomas en el sitio web, este sitio consta los siguientes componentes.
 
-## Development server
+    - barra de navegacion
+    - home
+    - sobre mi
+    - proyectos
+    - aplicaciones
+    - skills
+    - contactos
+    - cv
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+**barra de navegación-** como en la mayoría de las paginas web es necesario contar con una barra de navegación para facilitar el desplazamiento entre los componentes de nuestra pagina web, esta consta de menús los cuales nos desplazan entre la web, ademas tenemos un pequeño menú desplegable que tambien contiene enlaces a otros sitios web. cabe resaltar que decidí que los enlaces a sitios externos se ejecuten en nuevas pestañas, esto con el fin de que las personas no salgan sin desear de nuestra web.
 
-## Code scaffolding
+**home-** en este componente tengo un video de fondo el una pequeña foto mia y unos pequeños textos de presentación, decidi que fuese la imagen principal de presentacion en mi portafolio.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### sobre mi
 
-## Build
+**proyectos-**
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+**aplicaciones-**
 
-## Running unit tests
+**skills-**
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+**contactos-**
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+**cv-**
