@@ -5,7 +5,7 @@
 
 .card{
     margin: 2rem;
-    height: 22rem;
+    height: 26rem;
     background-color: #006fd6af;
     color:white;
     transition: 500ms;
@@ -18,6 +18,14 @@
 
 .card-body p{
     text-align: justify;    
+}
+.card-footer{
+    
+    img{
+        width:2rem;
+        height: 2rem;
+        margin-left: .5rem;
+    }
 }
 
 .modal-body{
