@@ -39,5 +39,7 @@
     "modalResponsive":"I've used HTML and Less languages for this project. The responsive design model was implemented for three screen sizes, with a primary focus on the desktop size. Adaptive methods were added for two additional screen sizes. Tablet mode: A specific layout was designed for screens with a maximum width of 800px. Mobile mode: This mode is activated when the screen width is a maximum of 500px. It's important to note that screen sizes larger than the ones mentioned above are considered desktop mode.",
     "modalAppStelias":"This application enables the creation of a database for a commercial establishment. The database includes prices, descriptions, and categories for products. Within the application, you can add new products, edit existing ones, and remove products. Additionally, it facilitates restocking and selling operations. This tool proves to be particularly valuable for small commercial establishments.",
 
-    "pdfLink":"These PDF files include embedded links where you can visit my certifications and pages."
+    "pdfLink":"These PDF files include embedded links where you can visit my certifications and pages.",
+    "certificados":"Certificates"
+
 }
