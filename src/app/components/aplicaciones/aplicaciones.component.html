@@ -1,5 +1,19 @@
 <div class="container">
     <div class="row" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="2000">
+        <!---------------------------Card ZL MANTENIMIENTOS----------------------------------->
+        <div class="col">
+            <div class="card" style="width: 18rem;" type="button" data-bs-toggle="modal" data-bs-target="#ZLMANTENIMIENTOS">
+                <img src="https://i.imgur.com/H6BxU9m.jpg" class="card-img-top" alt="patallasoVariedadStelias">
+                <div class="card-body">
+                    <h5 class="card-title">ZL MANTENIMIENTOS</h5>
+                    <p class="card-text">{{"cardTextZL" | translate}}</p>
+                </div>
+                <div class="card-footer">
+                    <img src="https://i.imgur.com/NPpQhmT.png" alt="logoAppSheet">       
+                    <img src="https://i.imgur.com/OVMoVEY.png" alt="logoExcel"> 
+                </div>
+            </div>
+        </div>
         <!---------------------------Card VariedadeStelias------------------------------>
         <div class="col">
             <div class="card" style="width: 18rem;" type="button" data-bs-toggle="modal" data-bs-target="#appStelias">
@@ -28,7 +42,6 @@
                 </div>
             </div>
         </div>
-        <div class="col"></div>
     </div>
 </div>
 
@@ -71,6 +84,30 @@
             <div class="modal-body text-center">
                 <video controls autoplay muted src="./assets/videos/SteliasMuestra2.mp4" width="320" height="568"></video>
                 <p align="justify">{{"modalAppStelias" | translate}}</p>
+                <p>
+                    {{"modalConstruido" | translate}}
+                    AppSheet, Microsoft Excel.
+                </p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">{{"cerrar" | translate}}</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--------------------------------modal ZL MANTENIMIENTOS------------------------------------>
+
+<div class="modal fade" id="ZLMANTENIMIENTOS" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title text-danger" id="exampleModalLabel">ZL MANTENIMIENTOS</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body text-center">
+                <video controls autoplay muted src="./assets/videos/ZL-Muestra.mp4" width="320" height="568"></video>
+                <p align="justify">{{"modalZL" | translate}}</p>
                 <p>
                     {{"modalConstruido" | translate}}
                     AppSheet, Microsoft Excel.
